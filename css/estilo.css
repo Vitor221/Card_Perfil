@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('../images/bg-pattern-top.svg'), url('../images/bg-pattern-bottom.svg');
+  background-repeat: no-repeat, no-repeat;
+  background-position: bottom left, top right;
+  background-size: 50%;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  background-color: hsl(185, 75%, 39%);
+  font-family: 'Kumbh Sans', sans-serif;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+  height: 490px;
+  background-color: #fff;
+  border-radius: 1rem;
+  margin-top: 5%;
+}
+
+#imgBgCard {
+  width: 100%;
+  border-radius: 1rem 1rem 0 0;
+}
+
+#personPerfil{
+  width: 30%;
+  position: relative;
+  margin-top: -15%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 100%;
+  border: 6px solid #fff;
+}
+
+.namePerfil {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+  margin-bottom: 3%;
+}
+
+.namePerfil h2 {
+  margin-top: 2.2%;
+  font-weight: 400;
+  color: hsl(227, 10%, 46%);
+  margin-left: 2%;
+}
+
+#nomePerson {
+  color: hsl(229, 23%, 23%);
+  font-weight: bold;
+}
+
+.Moradia {
+  display: flex;
+  justify-content: center;
+  color: hsl(227, 10%, 46%);
+}
+
+hr {
+  margin-top: 10%;
+}
+
+.sectionNums {
+  margin-top: 5%;
+  margin-bottom: 10%;
+  display: flex;
+  justify-content: space-around;
+  font-size: 0.8rem;
+  letter-spacing: 2px;
+}
+
+.sectionNums h2 {
+  color: hsl(229, 23%, 23%);
+}
+
+.sectionNums p {
+  color: hsl(227, 10%, 46%);
+}
+
+.statics {
+  text-align: center;
+}
